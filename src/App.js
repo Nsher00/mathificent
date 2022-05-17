@@ -1,14 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Mathificent</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <Header />
+    <h1>Mathificent!</h1>
+    <footer className="navbar fixed-bottom bg-dark">
+  <div className="container-fluid">
+    <a href="https://www.webucator.com" className="nav-link text-light">
+      Copyright &copy; {new Date().getFullYear()} Webucator
+    </a>
+  </div>
+</footer>
   );
 }
 
