@@ -3,7 +3,7 @@ import React from 'react';
 function Header () {
     return(
         <header>
-  <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav className="navbar navbar-expand-lg navbar-dark">
     <div className="container-fluid">
       <button className="navbar-toggler" type="button" 
         data-toggle="collapse" data-target="#navbarText">
